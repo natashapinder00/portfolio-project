@@ -1,12 +1,45 @@
-body {
+:root {
+  --primary-color: #93c5e2;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-
 h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
+  font-size: 96px;
+  margin: 0;
 }
 
 h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
+  font-size: 25px;
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  margin: 0;
+  padding: 160px 20px;
+}
+
+.hero h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  line-height: 2;
+}
+
+.btn-branding {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  border-radius: 4px;
+  color: #f5f2fe;
+  padding: 15px 20px;
+}
+.btn-branding:hover {
+  background-color: inherit;
+  color: var(--primary-color);
+  box-shadow: none;
+  border-radius: none;
+  border-color: var(--primary-color);
 }

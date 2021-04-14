@@ -3,6 +3,12 @@
   --secondary-color: #f9f7fd;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+
+body,
+html {
+  height: 100%;
+}
+
 h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
@@ -24,7 +30,6 @@ p {
 }
 
 .hero {
-  background: var(--secondary-color);
   text-align: center;
   margin: 0;
   padding: 160px 20px;
@@ -72,5 +77,9 @@ p {
   border-color: var(--primary-color);
 }
 .project-description {
-  padding: 120 60px 0;
+  padding: 120px 60px;
+}
+
+.freelancer-img {
+  max-width: 30%;
 }

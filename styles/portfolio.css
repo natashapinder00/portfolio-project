@@ -8,6 +8,15 @@ body,
 html {
   height: 100%;
 }
+body {
+  position: absolute;
+  width: 1440px;
+  height: 900px;
+  left: 0px;
+  top: 0px;
+
+  background: url(src/images/pronto.jpeg);
+}
 
 h1 {
   font-family: "Open Sans", sans-serif;
@@ -82,4 +91,16 @@ p {
 
 .freelancer-img {
   max-width: 30%;
+}
+.portfolio-images {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 1152px;
+  height: 280px;
+  left: 144px;
+  top: 720px;
 }

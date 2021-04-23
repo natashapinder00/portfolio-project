@@ -9,20 +9,13 @@ html {
   height: 100%;
 }
 body {
-  position: absolute;
-  width: 1440px;
-  height: 900px;
-  left: 0px;
-  top: 0px;
-
-  background: url(src/images/pronto.jpeg);
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 96px;
-  margin: 0;
 }
 
 h2 {
@@ -34,13 +27,12 @@ h2 {
 p {
   font-weight: normal;
   font-size: 16px;
-  margin: 0;
+
   line-height: 30px;
 }
 
 .hero {
   text-align: center;
-  margin: 0;
   padding: 160px 20px;
 }
 
@@ -54,6 +46,24 @@ p {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
   line-height: 2;
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 70px;
+  line-height: 80px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.about-section h2 {
+  font-size: 18px;
+}
+
+.about-section-content {
+  margin: 30px;
 }
 
 .btn-branding {
@@ -91,22 +101,4 @@ p {
 
 .freelancer-img {
   max-width: 30%;
-}
-
-.about-section h1 {
-  font-size: 70px;
-  line-height: 80px;
-  font-family: "Open Sans", sans-serif;
-}
-.about-section {
-  padding: 160px 20px;
-}
-
-.about-section-content {
-  margin: 30px;
-}
-
-.about-section {
-  text-align: center;
-  padding: 0;
 }

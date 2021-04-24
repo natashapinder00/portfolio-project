@@ -27,7 +27,6 @@ h2 {
 p {
   font-weight: normal;
   font-size: 16px;
-
   line-height: 30px;
 }
 
@@ -45,7 +44,7 @@ p {
 .hero h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .content {
@@ -59,11 +58,11 @@ p {
 .content h1 {
   font-size: 70px;
   line-height: 80px;
-  font-family: "Open Sans", sans-serif;
 }
 
 .content-container h2 {
   font-size: 18px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .content-container h3 {

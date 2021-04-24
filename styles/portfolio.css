@@ -48,11 +48,15 @@ p {
   line-height: 2;
 }
 
+.content {
+  margin: 30px;
+}
+
 .content-container {
   padding: 160px 20px;
 }
 
-.content-container h1 {
+.content h1 {
   font-size: 70px;
   line-height: 80px;
   font-family: "Open Sans", sans-serif;
@@ -62,8 +66,14 @@ p {
   font-size: 18px;
 }
 
-.content {
-  margin: 30px;
+.content-container h3 {
+  line-height: 1.5px;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.content p {
+  font-size: 14px;
 }
 
 .btn-branding {
@@ -117,7 +127,7 @@ p {
     padding: 80px 20px;
   }
 
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
   }

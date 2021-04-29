@@ -148,6 +148,11 @@ nav li.active a {
 footer .contact-box {
   padding: 20px 60px;
   border-radius: 10px;
+  background-color: var(--secondary-color);
+}
+
+footer .contact-box p {
+  margin: 0;
 }
 
 footer .email-link {
@@ -179,6 +184,13 @@ footer .social-links a:hover {
   h2 {
     font-size: 44px;
   }
+  .btn {
+    font-size: 16px;
+  }
+
+  h4 {
+    font-size: 26px;
+  }
 
   .hero {
     padding: 80px 20px;
@@ -192,5 +204,9 @@ footer .social-links a:hover {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  footer .contact-box {
+    padding: 30px;
   }
 }

@@ -2,7 +2,6 @@
   --primary-color: #93c5e2;
   --secondary-color: #f9f7fd;
   --branding-color: #158dd8;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body,
@@ -88,7 +87,7 @@ p {
   padding: 15px 20px;
 }
 .btn-branding:hover {
-  background-color: inherit;
+  background: white;
   color: var(--primary-color);
   box-shadow: none;
   border-radius: none;

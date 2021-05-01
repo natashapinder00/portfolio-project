@@ -15,7 +15,7 @@ body {
 h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  font-size: 96px;
+  font-size: 98px;
 }
 
 h2 {
@@ -36,19 +36,21 @@ p {
 
 .hero {
   text-align: center;
-  padding: 160px 20px;
+  padding: 90px 20px;
 }
 
 .hero p {
   font: size 38px;
   font-weight: bold;
   margin: 0;
+  color: #272142;
 }
 
 .hero h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
   line-height: 1.5;
+  font-size: 24px;
 }
 
 .content {
@@ -56,7 +58,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 80px 100px;
 }
 
 .content h1 {

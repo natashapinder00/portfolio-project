@@ -178,6 +178,11 @@ footer .social-links a:hover {
   color: var(--branding-color);
 }
 
+.responsive {
+  width: 80%;
+  height: auto;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;

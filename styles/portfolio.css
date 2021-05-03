@@ -11,12 +11,16 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
 }
+.contact-h1 {
+  text-decoration: underline;
+  color: #158dd8;
+}
 h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 98px;
   color: #a1c2d4;
-  opacity: 40%;
+  opacity: 50%;
 }
 
 h2 {
@@ -32,7 +36,7 @@ h3 {
 
 p {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 30px;
 }
 

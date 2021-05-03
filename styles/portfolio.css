@@ -134,6 +134,10 @@ p {
   max-width: 200px;
   margin: -70px;
 }
+.card {
+  border: none;
+  padding: 20px;
+}
 
 nav {
   padding: 20px 0;

@@ -11,17 +11,19 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
 }
-
 h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 98px;
+  color: #a1c2d4;
+  opacity: 40%;
 }
 
 h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-size: 25px;
+  color: #abd5f3;
 }
 
 h3 {
@@ -32,6 +34,11 @@ p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+}
+
+.homepage-contact-button {
+  opacity: 80%;
+  padding: 60px;
 }
 
 .hero {
@@ -52,7 +59,12 @@ p {
   line-height: 1.5;
   font-size: 24px;
 }
-
+.bg-img {
+  background: url("../src/images/model6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -125px;
+}
 .content {
   margin: 30px;
 }
@@ -183,7 +195,9 @@ footer .social-links a:hover {
   max-width: 400px;
   height: auto;
 }
-
+.vimeo {
+  margin-top: 60px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
